@@ -1,0 +1,51 @@
+classDiagram
+
+    class Estudiante {
+        -id: int
+        -nombre: string
+        -email: string
+        -carrera: string
+        +registrar(): void
+        +editarPerfil(): void
+        +consultarCursosDisponibles(): List<Curso>
+        +consultarCursosMatriculados(): List<Curso>
+    }
+ 
+    class Curso {
+        -codigo: string
+        -nombre: string
+        -creditos: int
+        +matricular(): void
+        +retirar(): void
+    }
+  
+
+    class Periodo {
+        -año: int
+        -nombre: string
+        -activo: booleano
+        +iniciarPeriodo(): void
+        +finalizarPeriodo(): void
+    }
+
+    class Profesor {
+        -idProfesor: int
+        -nombre: string
+        -correo: string
+        +asignarCurso(): void
+        +consultarCursos(): List<Curso>
+    }
+
+    class Grupo {
+        -id_grupo: int
+        -numero_grupo: int 
+        -horario: string
+        +agregarEstudiante(): void
+        +consultarEstudiantes(): List<Estudiante>
+    }
+
+
+    Estudiante "1" --> "*" Curso : matrícula
+    Curso  "1" --> "*" Periodo : ofrecido en 
+    Profesor  "1" --> "*" Curso : imparte 
+    Estudiante  "1" --> "*" Grupo : pertenece 
