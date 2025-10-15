@@ -3,12 +3,28 @@
     body{
       background-color: rgba(0, 0, 0, 0.767);
     }
+
+    h1,
+    h2{
+        padding: 5px;
+        color: white;
+    }
+     .header-title {
+      margin: 30px, 0, 20px;
+    }
+    
+    #main-title {
+      font-size: 2.5em;
+      border-bottom: 2px solid white;
+      
+    }
+
     .form-group label {
       display: block;
       margin-left: 5px;
       font-weight: bold;
     }
-
+    
     .form-input {
       width: 100%;
       padding: 10px 0;
@@ -17,9 +33,22 @@
     }
 
     .submit-button {
+      margin-top: 10px;
       padding: 10px 50px;
-      border-radius: 15px;
-      transition: background-color 0.3s ease;
+      border-radius: 5px;
+      background-color: #6894f1;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 16px;
+      border: 0;
+      margin: 0 auto;
+    }
+
+    fieldset {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
     }
 
     .submit-button:hover {
@@ -27,29 +56,86 @@
       /* Un azul más oscuro al pasar el mouse */
     }
 
- .menu {
-      background-color: #333;
+    .title{
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        margin: 0px;
+    }
+    .menu, footer {
+      color: white; 
+      background-color: #39dd6a77;
       overflow: hidden;
+      margin: 20px, 0;
+      padding: 10px 0;
     }
 
     .menu ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
+      display: flex;
+      justify-content: center;
     }
 
     .menu li {
-      float: left;
+      margin: 10px 8px;
     }
 
-    .menu li a {
-      display: block;
+    .menu  a {
+      text-transform: uppercase;
+      font-weight: bold;
       color: white;
+      text-decoration: none;
+      padding: 12px  15px;
+      display: block;
+    }
+      
+    .menu a:hover {
+      background-color: #2bd8b3;
+      border-radius: 4px;
+    }
+
+    #form-section {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    #video-section {
+      border-radius: 10px;
+      max-width: 540px;
+    }
+
+    footer {
       text-align: center;
-      padding: 14px 16px;
+      font-size: 14px;
+      margin-top: 10px !important;
+    }
+
+    footer p {
+      font-family: 'Arial', sans-serif;
+    }
+    /* Aplica solo a los hijos directos */
+    footer > p {   
+      font-weight: bold;
+    }
+
+    footer a {   
+      color: rgb(103, 255, 136);
       text-decoration: none;
     }
+    /* Aplica a todos los hermanos de h1 */
+    h1 ~ p {
+      font-style: italic;
+    }
 
-    .menu li a:hover {
-      background-color: #111;
+    footer h1, footer p, footer h2 {
+      margin: 8px 0 ;
+    }
+
+    h2 + div {
+      background-color: #5f815a;
+      padding: 5px;
     }

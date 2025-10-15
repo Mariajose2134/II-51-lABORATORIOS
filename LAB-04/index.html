@@ -5,28 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Estilos.css">
-  <title>LAB-03</title>
+  <title>LAB-04</title>
 </head>
 
 <body>
 
-  <!-- encabezado de cuerpo de la pagina-->
+  <!-- encabezado de cuerpo de la pagina-->  
   <header>
-    <h1>Plataforma Educativa Universidad Central</h1>
-  </header>
+    <div class="header-title">
+      <h1 id="main-title" class="title">Plataforma Educativa</h1>
+      <h1 class="title">Universidad Central</h1>
 
-  <!-- menu -->
-  <nav> class="menu">
+    </div>
+   
+      <!-- menu -->
+  <nav class="menu">
     <ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="Cursos">Cursos</a></li>
-      <li><a href="Contactos">Contacto</a></li>
+      <li><a href="Contacto">Contacto</a></li>
       <li><a href="Ayuda">Ayuda</a></li>
     </ul>
   </nav>
+  </header>
+
+  
 
   <main>
-    <section>
+    <section id="form-selection">
       <form action="#" method="post">
         <fieldset>
           <legend>Registro de Usuario</legend>
@@ -86,21 +92,33 @@
                 <label for="interes4">Ciencia de Datos</label>
               </div>
           </fieldset>
-
-          <button class="submit-button" type="submit">Registrar</button>
+            <button class="submit-button" type="submit">Registrar</button>
         </fieldset>
       </form>
     </section>
-    <section>
+
+    <section id ="video-section">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=KRC7kR0cZzGenVSb&amp;start=61"
         title="Video Incrustado" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
+
   </main>
+  <!-- pie de pagina-->
   <footer>
+    <h1>Universidad Central</h1>
     <p>&copy; 2023 Plataforma Educativa Universidad Central</p>
-    <p>Contacto: <a href="mailto:fabian.chinchilla@uc.ac.cr">Fabian</p>
+    <p>Contacto: <a href="mailto:fabian.chinchilla@uc.ac.cr">Fabian</a></p>
+
+    <h2>Información adicional</h2>
+    <div>
+    <p>Todos los derechos reservados</p>
+    <section>
+      <p>Para más información, visite nuestro sitio web.</p>
+    </section>
+   </div>
+
   </footer>
 </body>
 
