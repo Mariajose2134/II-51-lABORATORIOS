@@ -9,3 +9,7 @@
   color: #0c5460;
   font-weight: bold;
 }
+.caja.color:hover {
+  background-color: #8e11c0;
+  color: #ffffff;
+}
