@@ -2,6 +2,8 @@
   padding: 10px;
   border: 1px solid #ccc;
   transition: background-color 0.3s;
+        border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .caja.color {
@@ -10,6 +12,11 @@
   font-weight: bold;
 }
 .caja.color:hover {
-  background-color: #8e11c0;
+  background-color: #8e11c0 !important;
+  color: #ffffff;
+}
+
+.tema-oscuro {
+  background-color: #121212;
   color: #ffffff;
 }
