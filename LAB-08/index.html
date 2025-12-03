@@ -8,6 +8,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab08</title>
   </head>
@@ -18,10 +19,10 @@
         <li class="list-group-item">Curso 1: Introducción a la Programación</li>
       </ul>
       <!-- formulario -->
-      <form id="curso-form">
+      <form id="curso-form" class="mt-5">
         <h2 id="form-title">Registrar curso</h2>
 
-        <input type="hidden" id="id" />
+        <input type="hidden" id="idCurso" />
 
         <label class="codigo">Código</label>
         <input type="text" id="codigo" class="form-control" required />
@@ -32,7 +33,7 @@
         <label class="creditos">Créditos</label>
         <input type="number" id="creditos" class="form-control" required min="1" max="5" />
 
-        <button type="submit" id="btn-save" class="btn btn-primary m-3">Guardar</button>
+        <button type="submit" id="btn-save" class="btn btn-primary m-3">Guardar Curso</button>
         <button type="button" id="btn-cancel" style="display: none" class="btn btn-secondary">
           Cancelar
         </button>
