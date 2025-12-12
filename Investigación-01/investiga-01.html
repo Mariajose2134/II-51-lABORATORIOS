@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras y transiciones</title>
+ </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 200px;
+      background-color: lightgrey;
+    }
+    
+    /* Sombra al texto */
+    h1 {
+      color: black;
+      text-shadow: 2px 2px 4px #78eba8; 
+    }
+
+    .caja {
+      width: 150px;
+      height: 150px;
+      background-color: green;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px black; /* Sombra al contenedor */
+      transition: all 0.5s ease; /* Transición suave */
+    }
+
+    .caja:hover {
+      background-color: greenyellow;
+      box-shadow: 10px 10px 20px black; /* Cambia la sombra al pasar el mouse */
+    }
+  </style>
+</head>
+<body>
+  <h1>Sombras y Transiciones</h1>
+  <div class="caja"></div>
+</body>
+ </html>

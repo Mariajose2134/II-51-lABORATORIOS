@@ -1,0 +1,44 @@
+/* Tarjeta general */
+.card {
+  width: 350px;
+  padding: 20px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Título */
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Texto del contador */
+.counter {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Botón */
+.btn {
+  background-color: #4e8cff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+/* Efecto hover */
+.btn:hover {
+  background-color: #1f6bff;
+  transform: scale(1.05);
+}
