@@ -1,13 +1,13 @@
      body {
             font-family: Arial, sans-serif;
-            background-color: #8addf7;
+            background-color: #9cf8bf;
             margin: 20px;
         }
 
         h1, h2 {
             text-align: center;
             color: black;
-            background: rgb(216, 229, 247);
+            background: rgb(237, 243, 204);
             padding: 10px;
             border-radius: 10px;
         }
@@ -20,7 +20,7 @@
         }
 
         .card {
-            background:rgb(216, 229, 247);
+            background:rgb(209, 243, 196);
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
