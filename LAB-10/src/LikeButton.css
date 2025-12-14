@@ -4,3 +4,9 @@
 .w-6 {
     width: 1.5rem;
 }
+
+.Liked {
+    color: red;
+    transition: 0.2s ease;
+    
+}   

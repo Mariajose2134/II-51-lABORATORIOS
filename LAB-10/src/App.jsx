@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import boy from './assets/boy.png'
-import adult from './assets/adult.png'
+import boy from './assets/avatar niño.jpg'
+import adult from './assets/avatar adulto.png'
 import './App.css'
 import LikeButton from './LikeButton'
 
