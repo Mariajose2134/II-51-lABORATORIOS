@@ -5,7 +5,7 @@ function LikeButton() {
 
   return (
     <button onClick={() => setisLike(!islike)}>
-      <svg className={`w-6 h-6 ${islike ? "Liked" : ""}`} viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path 
+      <svg className={`w-6 h-6 ${islike ? "Liked" : ""}`} viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path stroke='currentColor'
       fill={islike ? "red" : "none"} clip-rule="evenodd" d="m12 5.184-.808-.771-.004-.004C11.065 4.299 8.522 2.003 6 2.003c-3.736
        0-6 2.558-6 6.677 0 4.47 5.471 9.848 10 13.079.602.43 1.187.82 1.74 1.167A.497.497 0 0 0 12 23v-.003c.09 0 .182-.026.26-.074C16.977
         19.97 24 13.737 24 8.677 24 4.557 21.743 2 18 2c-2.569 0-5.166 2.387-5.192 2.413L12 5.184zm-.002 15.525c2.071-1.388 4.477-3.342 
