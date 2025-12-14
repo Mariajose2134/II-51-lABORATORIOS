@@ -1,12 +1,15 @@
      body {
             font-family: Arial, sans-serif;
-            background-color: #8ed6f3;
+            background-color: #0877f5;
             margin: 20px;
         }
 
         h1, h2 {
             text-align: center;
-            color: #333;
+            color: black;
+            background: rgb(134, 177, 233);
+            padding: 10px;
+            border-radius: 10px;
         }
 
         .grid {
@@ -17,7 +20,7 @@
         }
 
         .card {
-            background: white;
+            background:rgb(134, 177, 233);
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -30,15 +33,15 @@
         }
 
         .card img {
-            width: 100%;
-            height: 150px;
+            width: 250%;
+            height: 300%;
             object-fit: cover;
         }
 
         .card p {
             padding: 10px;
             font-weight: bold;
-            color: #0066cc;
+            color: black;
         }
 
         a {
